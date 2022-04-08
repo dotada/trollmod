@@ -16,8 +16,17 @@ public class ModItems {
     public static final RegistryObject<Item> cheddarcheese = ITEMS.register("cheddarcheese",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
+    public static final RegistryObject<Item> plastic = ITEMS.register("plastic",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
+    public static final RegistryObject<Item> radcheese = ITEMS.register("radcheese",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
+    public static final RegistryObject<Item> sc = ITEMS.register("sc",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+
+    public static final RegistryObject<Item> tube = ITEMS.register("tube",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
     public static void register(IEventBus eventBus) {
