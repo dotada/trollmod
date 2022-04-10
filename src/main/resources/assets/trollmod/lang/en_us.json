@@ -7,5 +7,6 @@
   "item.trollmod.rod": "Rod",
   "block.trollmod.cheeze_block": "Cheese block",
   "block.trollmod.rad_block": "Radioactive cheese block",
-  "block.trollmod.troll_block": "Troll block"
+  "block.trollmod.troll_block": "Troll block",
+  "itemGroup.cheesestab": "Cheeses"
 }
