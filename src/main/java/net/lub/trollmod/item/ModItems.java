@@ -28,6 +28,8 @@ public class ModItems {
     public static final RegistryObject<Item> tube = ITEMS.register("tube",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> rod = ITEMS.register("rod",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

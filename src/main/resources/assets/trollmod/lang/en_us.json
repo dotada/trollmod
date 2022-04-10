@@ -3,5 +3,9 @@
   "item.trollmod.plastic": "Plastic",
   "item.trollmod.radcheese": "Radioactive cheese",
   "item.trollmod.sc": "String cheese",
-  "item.trollmod.tube": "Tube"
+  "item.trollmod.tube": "Tube",
+  "item.trollmod.rod": "Rod",
+  "block.trollmod.cheeze_block": "Cheese block",
+  "block.trollmod.rad_block": "Radioactive cheese block",
+  "block.trollmod.troll_block": "Troll block"
 }

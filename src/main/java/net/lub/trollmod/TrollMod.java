@@ -1,5 +1,6 @@
 package net.lub.trollmod;
 
+import net.lub.trollmod.block.ModBlocks;
 import net.lub.trollmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -31,6 +32,7 @@ public class TrollMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
