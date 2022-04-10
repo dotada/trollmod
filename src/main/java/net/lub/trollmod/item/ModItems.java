@@ -14,22 +14,22 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> cheddarcheese = ITEMS.register("cheddarcheese",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> plastic = ITEMS.register("plastic",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> radcheese = ITEMS.register("radcheese",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> sc = ITEMS.register("sc",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> tube = ITEMS.register("tube",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> rod = ITEMS.register("rod",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
