@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "trollmod:rod"
+    },
+    "N": {
+      "item": "trollmod:sc"
+    }
+  },
+  "result": {
+    "item": "trollmod:radcheese"
+  }
+}

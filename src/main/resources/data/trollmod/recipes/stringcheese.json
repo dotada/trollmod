@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "N",
+    "I"
+  ],
+  "key": {
+    "I": {
+      "item": "trollmod:tube"
+    },
+    "N": {
+      "item": "trollmod:cheddarcheese"
+    }
+  },
+  "result": {
+    "item": "trollmod:sc"
+  }
+}
