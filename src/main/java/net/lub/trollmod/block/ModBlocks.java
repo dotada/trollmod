@@ -1,6 +1,7 @@
 package net.lub.trollmod.block;
 
 import net.lub.trollmod.TrollMod;
+import net.lub.trollmod.item.ModCreativeModeTab;
 import net.lub.trollmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,9 +21,9 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TrollMod.MOD_ID);
 
 
-    public static final RegistryObject<Block> CHEEZE_BLOCK = registerBlock("cheeze_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> RAD_BLOCK = registerBlock("rad_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
-    public static final RegistryObject<Block> TROLL_BLOCK = registerBlock("troll_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> CHEEZE_BLOCK = registerBlock("cheeze_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CHEESES_TAB);
+    public static final RegistryObject<Block> RAD_BLOCK = registerBlock("rad_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CHEESES_TAB);
+    public static final RegistryObject<Block> TROLL_BLOCK = registerBlock("troll_block", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.CHEESES_TAB);
 
 
 

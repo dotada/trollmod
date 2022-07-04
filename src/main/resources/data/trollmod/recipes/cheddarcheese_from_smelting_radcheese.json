@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "trollmod:radcheese"
+  },
+  "result": "trollmod:cheddarcheese",
+  "experience": 0.9,
+  "cookingtime": 100
+}
