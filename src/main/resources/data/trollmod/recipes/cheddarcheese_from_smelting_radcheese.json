@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "trollmod:radcheese"
   },
-  "result": "trollmod:cheddarcheese",
+  "result": "trollmod:cheese_ore",
   "experience": 0.9,
   "cookingtime": 100
 }

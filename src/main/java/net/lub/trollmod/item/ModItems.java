@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TrollMod.MOD_ID);
 
 
-    public static final RegistryObject<Item> cheddarcheese = ITEMS.register("cheddarcheese",
+    public static final RegistryObject<Item> cheeseore = ITEMS.register("cheese_ore",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.CHEESES_TAB)));
 
     public static final RegistryObject<Item> plastic = ITEMS.register("plastic",
